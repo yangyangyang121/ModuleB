@@ -6,13 +6,13 @@
 //  Copyright © 2017年 yangdd. All rights reserved.
 //
 
-#import "ModuleAAppDelegate.h"
+#import "ModuleBAppDelegate.h"
 
-@interface ModuleAAppDelegate ()
+@interface ModuleBAppDelegate ()
 
 @end
 
-@implementation ModuleAAppDelegate
+@implementation ModuleBAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {

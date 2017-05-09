@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0F5C14901EBE13CF0024784E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5C148F1EBE13CF0024784E /* main.m */; };
-		0F5C14931EBE13CF0024784E /* ModuleAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5C14921EBE13CF0024784E /* ModuleAAppDelegate.m */; };
+		0F5C14931EBE13CF0024784E /* ModuleBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5C14921EBE13CF0024784E /* ModuleBAppDelegate.m */; };
 		0F5C14961EBE13CF0024784E /* ModuleBIndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5C14951EBE13CF0024784E /* ModuleBIndexViewController.m */; };
 		0F5C14991EBE13CF0024784E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F5C14971EBE13CF0024784E /* Main.storyboard */; };
 		0F5C149B1EBE13CF0024784E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F5C149A1EBE13CF0024784E /* Assets.xcassets */; };
@@ -18,8 +18,8 @@
 /* Begin PBXFileReference section */
 		0F5C148B1EBE13CF0024784E /* ModuleB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModuleB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F5C148F1EBE13CF0024784E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0F5C14911EBE13CF0024784E /* ModuleAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleAAppDelegate.h; sourceTree = "<group>"; };
-		0F5C14921EBE13CF0024784E /* ModuleAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleAAppDelegate.m; sourceTree = "<group>"; };
+		0F5C14911EBE13CF0024784E /* ModuleBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleBAppDelegate.h; sourceTree = "<group>"; };
+		0F5C14921EBE13CF0024784E /* ModuleBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleBAppDelegate.m; sourceTree = "<group>"; };
 		0F5C14941EBE13CF0024784E /* ModuleBIndexViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleBIndexViewController.h; sourceTree = "<group>"; };
 		0F5C14951EBE13CF0024784E /* ModuleBIndexViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleBIndexViewController.m; sourceTree = "<group>"; };
 		0F5C14981EBE13CF0024784E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -58,8 +58,8 @@
 		0F5C148D1EBE13CF0024784E /* ModuleB */ = {
 			isa = PBXGroup;
 			children = (
-				0F5C14911EBE13CF0024784E /* ModuleAAppDelegate.h */,
-				0F5C14921EBE13CF0024784E /* ModuleAAppDelegate.m */,
+				0F5C14911EBE13CF0024784E /* ModuleBAppDelegate.h */,
+				0F5C14921EBE13CF0024784E /* ModuleBAppDelegate.m */,
 				0F5C14941EBE13CF0024784E /* ModuleBIndexViewController.h */,
 				0F5C14951EBE13CF0024784E /* ModuleBIndexViewController.m */,
 				0F5C14971EBE13CF0024784E /* Main.storyboard */,
@@ -151,7 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F5C14961EBE13CF0024784E /* ModuleBIndexViewController.m in Sources */,
-				0F5C14931EBE13CF0024784E /* ModuleAAppDelegate.m in Sources */,
+				0F5C14931EBE13CF0024784E /* ModuleBAppDelegate.m in Sources */,
 				0F5C14901EBE13CF0024784E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ModuleAAppDelegate.h"
+#import "ModuleBAppDelegate.h"
 
 int main(int argc, char * argv[]) {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([ModuleAAppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([ModuleBAppDelegate class]));
     }
 }
