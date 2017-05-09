@@ -6,13 +6,13 @@
 //  Copyright © 2017年 yangdd. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "ModuleBIndexViewController.h"
 
-@interface ViewController ()
+@interface ModuleBIndexViewController ()
 
 @end
 
-@implementation ViewController
+@implementation ModuleBIndexViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
