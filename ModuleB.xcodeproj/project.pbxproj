@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		0F5C14901EBE13CF0024784E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5C148F1EBE13CF0024784E /* main.m */; };
 		0F5C14931EBE13CF0024784E /* ModuleBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5C14921EBE13CF0024784E /* ModuleBAppDelegate.m */; };
-		0F5C14961EBE13CF0024784E /* ModuleBIndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5C14951EBE13CF0024784E /* ModuleBIndexViewController.m */; };
 		0F5C14991EBE13CF0024784E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F5C14971EBE13CF0024784E /* Main.storyboard */; };
 		0F5C149B1EBE13CF0024784E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F5C149A1EBE13CF0024784E /* Assets.xcassets */; };
 		0F5C149E1EBE13CF0024784E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F5C149C1EBE13CF0024784E /* LaunchScreen.storyboard */; };
+		0F5C14D81EC2FED60024784E /* ModuleBIndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5C14D61EC2FED60024784E /* ModuleBIndexViewController.m */; };
+		0F5C14D91EC2FED60024784E /* ModuleBIndexViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F5C14D71EC2FED60024784E /* ModuleBIndexViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +21,13 @@
 		0F5C148F1EBE13CF0024784E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0F5C14911EBE13CF0024784E /* ModuleBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleBAppDelegate.h; sourceTree = "<group>"; };
 		0F5C14921EBE13CF0024784E /* ModuleBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleBAppDelegate.m; sourceTree = "<group>"; };
-		0F5C14941EBE13CF0024784E /* ModuleBIndexViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleBIndexViewController.h; sourceTree = "<group>"; };
-		0F5C14951EBE13CF0024784E /* ModuleBIndexViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleBIndexViewController.m; sourceTree = "<group>"; };
 		0F5C14981EBE13CF0024784E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0F5C149A1EBE13CF0024784E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F5C149D1EBE13CF0024784E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F5C149F1EBE13CF0024784E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F5C14D51EC2FED60024784E /* ModuleBIndexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleBIndexViewController.h; sourceTree = "<group>"; };
+		0F5C14D61EC2FED60024784E /* ModuleBIndexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleBIndexViewController.m; sourceTree = "<group>"; };
+		0F5C14D71EC2FED60024784E /* ModuleBIndexViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModuleBIndexViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,13 +62,14 @@
 			children = (
 				0F5C14911EBE13CF0024784E /* ModuleBAppDelegate.h */,
 				0F5C14921EBE13CF0024784E /* ModuleBAppDelegate.m */,
-				0F5C14941EBE13CF0024784E /* ModuleBIndexViewController.h */,
-				0F5C14951EBE13CF0024784E /* ModuleBIndexViewController.m */,
 				0F5C14971EBE13CF0024784E /* Main.storyboard */,
 				0F5C149A1EBE13CF0024784E /* Assets.xcassets */,
 				0F5C149C1EBE13CF0024784E /* LaunchScreen.storyboard */,
 				0F5C149F1EBE13CF0024784E /* Info.plist */,
 				0F5C148E1EBE13CF0024784E /* Supporting Files */,
+				0F5C14D51EC2FED60024784E /* ModuleBIndexViewController.h */,
+				0F5C14D61EC2FED60024784E /* ModuleBIndexViewController.m */,
+				0F5C14D71EC2FED60024784E /* ModuleBIndexViewController.xib */,
 			);
 			path = ModuleB;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			files = (
 				0F5C149E1EBE13CF0024784E /* LaunchScreen.storyboard in Resources */,
 				0F5C149B1EBE13CF0024784E /* Assets.xcassets in Resources */,
+				0F5C14D91EC2FED60024784E /* ModuleBIndexViewController.xib in Resources */,
 				0F5C14991EBE13CF0024784E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,8 +154,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F5C14961EBE13CF0024784E /* ModuleBIndexViewController.m in Sources */,
 				0F5C14931EBE13CF0024784E /* ModuleBAppDelegate.m in Sources */,
+				0F5C14D81EC2FED60024784E /* ModuleBIndexViewController.m in Sources */,
 				0F5C14901EBE13CF0024784E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
